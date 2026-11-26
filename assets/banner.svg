@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 156" width="900" height="156" fill="none">
+  <defs>
+    <pattern id="gingham" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#f9ebe4"/>
+      <path d="M0 6H24M6 0V24" stroke="#edb9b9" stroke-opacity=".38" stroke-width="12"/>
+      <path d="M0 17H24M17 0V24" stroke="#fffaf0" stroke-opacity=".65" stroke-width="2"/>
+    </pattern>
+    <pattern id="lace" width="24" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 0H24V6Q24 15 12 16Q0 15 0 6Z" fill="#f8f4e8" stroke="#bda49a" stroke-width=".8"/>
+      <path d="M6 8q1 4 4 4m8-4q-1 4-4 4" stroke="#d1b9ac" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="12" cy="7" r="1.6" fill="#c7ae9d"/>
+    </pattern>
+    <radialGradient id="pearl" cx=".3" cy=".28" r=".8">
+      <stop stop-color="#fff"/><stop offset=".4" stop-color="#fffcf0"/><stop offset=".74" stop-color="#e8ddd0"/><stop offset="1" stop-color="#c4ae9e"/>
+    </radialGradient>
+    <linearGradient id="mint" x2=".85" y2="1"><stop stop-color="#f1faf2"/><stop offset=".45" stop-color="#c7dfd4"/><stop offset="1" stop-color="#95b9af"/></linearGradient>
+    <linearGradient id="rose" x2=".8" y2="1"><stop stop-color="#ffdfdc"/><stop offset=".55" stop-color="#efb4b5"/><stop offset="1" stop-color="#cc9297"/></linearGradient>
+    <linearGradient id="satin" x2=".8" y2="1"><stop stop-color="#ecf5ec"/><stop offset=".35" stop-color="#bad8cc"/><stop offset=".62" stop-color="#e2eee1"/><stop offset="1" stop-color="#a7c6ba"/></linearGradient>
+    <g id="berry" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0-17C-20-30-34-14-25 5Q-17 22-2 34Q1 36 6 32C22 17 36-10 22-18C16-22 8-21 0-17Z" fill="url(#rose)" stroke="#95746e" stroke-width="1.6"/>
+      <path d="M-20-4q-2-5 2-9" stroke="#ffded8" stroke-width="3"/>
+      <path d="M-15-20Q-9-25-2-20Q-6-28-1-31Q5-28 4-22Q13-27 18-24L12-17Q21-16 22-11Q12-9 6-13Q6-5 0-4Q-4-9-3-15Q-9-10-17-12L-12-17L-21-17Z" fill="url(#mint)" stroke="#809c8c" stroke-width="1.2"/>
+      <path d="M-15-2l.8 2m13-2l.2 2m13-4l-.5 2M-10 7l1 2m12-1l.4 2m10-2l-.7 2m-15 5l.6 2m9 0l-.6 2m-5 4l.1 1.8" stroke="#fef2d9" stroke-width="2.5"/>
+    </g>
+    <g id="bow" fill="url(#satin)" stroke="#78998b" stroke-width="1.25" stroke-linejoin="round">
+      <path d="M-3 1C-9 11-13 19-22 23L-11 23L-10 30Q0 19 3 3Q10 19 23 23L20 15L31 15Q14 10 5 0Z"/>
+      <path d="M-3-2C-14-13-32-20-35-11Q-37 1-32 9Q-28 15-3 3M4-2C20-15 34-20 35-9Q39 12 31 11Q17 12 4 3Z"/>
+      <path d="M-31-9Q-19-6-7 0m-24 7Q-23 4-7 2m39-12Q16-7 8 0m24 7Q19 1 7 2" fill="none" stroke="#9ebcae"/>
+      <rect x="-5" y="-5" width="11" height="11" rx="4"/>
+    </g>
+    <g id="flower" fill="#faf5e9" stroke="#b7a499" stroke-width="1">
+      <path d="M0-4C-13-16-12-28 0-25Q11-23 7-8Q20-21 27-12Q32-2 12 1Q31 3 27 15Q20 23 7 9Q10 28-3 27Q-14 25-7 9Q-23 18-27 9Q-30-3-10-3Q-18-5-17-11Q-13-16 0-4Z"/>
+      <circle r="6.3" fill="url(#rose)"/><circle cx="-2" cy="-2" r="1.4" fill="#fff9e9" stroke="none"/>
+    </g>
+    <g id="twinkle" fill="#fdfbf0" stroke="#af998a" stroke-width=".85"><path d="M0-8Q1-1 6 0Q1 1 0 8Q-1 1-6 0Q-1-1 0-8Z"/></g>
+    <g id="mintbead"><path d="M-6-5L2-8L8-2L6 5L-1 8L-8 1Z" fill="url(#mint)" stroke="#8fa99b" stroke-width="1"/><path d="M-5-4l5-1 4 3" stroke="#f5fff5" stroke-width="1.2"/></g>
+  </defs>
+  <rect width="900" height="156" fill="url(#gingham)"/>
+  <rect y="6" width="900" height="17" fill="#e7eee2" opacity=".6"/>
+  <g opacity=".65" stroke="#c8ab9e" stroke-width="1.1" fill="none"><path d="M0 135H900" stroke-dasharray="3 4"/><path d="M0 138H900"/></g>
+  <g stroke="#96877e" stroke-width="1.8" fill="none">
+    <path id="strand" d="M-8 26Q99 109 205 37Q328 128 450 48Q570 127 695 36Q802 109 908 28"/>
+  </g>
+  <g>
+    <!-- Individually strung beads follow the catenaries rather than a tiled decoration. -->
+    <circle cx="3.9" cy="34.7" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="15.8" cy="42.5" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(27.6 49.4) scale(.70)"/>
+    <circle cx="39.5" cy="55.2" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="51.4" cy="60.2" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="63.2" cy="64.1" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="75.1" cy="67.1" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="86.9" cy="69.2" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(98.8 70.3) scale(.70)"/>
+    <circle cx="110.6" cy="70.4" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="122.4" cy="69.6" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="134.2" cy="67.8" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="146.0" cy="65.0" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="157.8" cy="61.3" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(169.6 56.7) scale(.70)"/>
+    <circle cx="181.4" cy="51.1" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="193.2" cy="44.5" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="217.3" cy="45.7" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="229.6" cy="53.5" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(241.9 60.5) scale(.70)"/>
+    <circle cx="254.2" cy="66.6" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="266.4" cy="71.8" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="278.7" cy="76.2" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="291.0" cy="79.8" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="303.2" cy="82.4" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(315.5 84.3) scale(.70)"/>
+    <circle cx="327.8" cy="85.3" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="340.0" cy="85.4" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="352.2" cy="84.6" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="364.5" cy="83.1" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="376.7" cy="80.6" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(388.9 77.3) scale(.70)"/>
+    <circle cx="401.2" cy="73.2" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="413.4" cy="68.2" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="425.6" cy="62.3" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="437.8" cy="55.6" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="462.0" cy="55.5" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="474.1" cy="62.1" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(486.1 67.9) scale(.70)"/>
+    <circle cx="498.2" cy="72.8" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="510.3" cy="76.9" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="522.4" cy="80.1" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="534.6" cy="82.5" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="546.8" cy="84.0" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(559.0 84.7) scale(.70)"/>
+    <circle cx="571.3" cy="84.5" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="583.5" cy="83.5" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="595.8" cy="81.6" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="608.1" cy="78.9" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="620.5" cy="75.3" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(632.8 70.9) scale(.70)"/>
+    <circle cx="645.2" cy="65.6" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="657.6" cy="59.5" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="670.1" cy="52.5" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="682.5" cy="44.7" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="706.9" cy="43.6" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="718.8" cy="50.3" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(730.6 56.1) scale(.70)"/>
+    <circle cx="742.5" cy="60.8" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="754.4" cy="64.7" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="766.2" cy="67.6" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="778.1" cy="69.5" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="789.9" cy="70.5" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(801.8 70.5) scale(.70)"/>
+    <circle cx="813.6" cy="69.6" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="825.4" cy="67.7" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="837.2" cy="64.9" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="849.0" cy="61.1" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="860.8" cy="56.4" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <use xlink:href="#mintbead" transform="translate(872.6 50.7) scale(.70)"/>
+    <circle cx="884.4" cy="44.1" r="4.1" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+    <circle cx="896.2" cy="36.5" r="3.3" fill="url(#pearl)" stroke="#b6a99e" stroke-width=".8"/>
+  </g>
+  <g stroke="#978a7f" stroke-width="1.6">
+    <ellipse cx="101" cy="75" rx="3.5" ry="7"/>
+    <ellipse cx="326" cy="93" rx="3.3" ry="6"/>
+    <ellipse cx="573" cy="92" rx="3.3" ry="6"/>
+    <ellipse cx="801" cy="75" rx="3.5" ry="7"/>
+  </g>
+  <use xlink:href="#berry" transform="translate(101 95) rotate(-11) scale(.65)"/>
+  <use xlink:href="#flower" transform="translate(326 105) rotate(-12) scale(.60)"/>
+  <use xlink:href="#flower" transform="translate(573 104) rotate(19) scale(.58)"/>
+  <use xlink:href="#berry" transform="translate(801 95) rotate(13) scale(.63)"/>
+  <g stroke="#9e9084" stroke-width="1.6"><ellipse cx="450" cy="62" rx="4.8" ry="7"/><ellipse cx="449" cy="72" rx="3.8" ry="6.8"/></g>
+  <use xlink:href="#berry" transform="translate(449 97) rotate(7) scale(.93)"/>
+  <use xlink:href="#bow" transform="translate(450 46) rotate(-5) scale(.98)"/>
+  <use xlink:href="#bow" transform="translate(205 37) rotate(-13) scale(.63)"/>
+  <use xlink:href="#bow" transform="translate(695 37) rotate(12) scale(.63)"/>
+  <g opacity=".9"><use xlink:href="#twinkle" transform="translate(54 97) scale(.72)"/><use xlink:href="#twinkle" transform="translate(162 74) scale(.7)"/><use xlink:href="#twinkle" transform="translate(265 40)"/><use xlink:href="#twinkle" transform="translate(393 115) scale(.8)"/><use xlink:href="#twinkle" transform="translate(506 99) scale(.7)"/><use xlink:href="#twinkle" transform="translate(620 36) scale(.8)"/><use xlink:href="#twinkle" transform="translate(741 100)"/><use xlink:href="#twinkle" transform="translate(858 94) scale(.7)"/></g>
+  <rect width="900" height="18" fill="url(#lace)"/>
+  <g transform="translate(0 156) scale(1 -1)"><rect width="900" height="18" fill="url(#lace)"/></g>
+</svg>
