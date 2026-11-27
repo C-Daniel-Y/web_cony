@@ -1,7 +1,7 @@
 const instagramUser = "madoicharms_";
 const instagramUrl = instagramUser ? "https://www.instagram.com/" + instagramUser + "/" : "";
 
-const whatsappUrl = "";
+const tiktokUrl = "";
 const facebookUrl = "";
 
 const sections = [

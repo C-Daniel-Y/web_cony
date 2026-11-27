@@ -70,7 +70,7 @@ document.querySelector("#close").onclick = () => {
 };
 const socialGrid = document.querySelector(".social-grid");
 for (const [name, id, url] of [
-  ["WhatsApp", "whatsapp", whatsappUrl],
+  ["TikTok", "tiktok", tiktokUrl],
   ["Instagram", "instagram", instagramUrl],
   ["Facebook", "facebook", facebookUrl]
 ]) {

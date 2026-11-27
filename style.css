@@ -62,6 +62,7 @@ button,a{font:inherit;color:inherit;touch-action:manipulation}button{cursor:poin
 .bubble{position:relative;background:var(--paper);border:1.5px solid var(--edge);border-radius:17px;box-shadow:2px 3px 0 #aa909c55;padding:clamp(14px,3vw,24px)}
 .bubble::before{content:"";position:absolute;left:-8px;bottom:23%;width:13px;height:13px;transform:rotate(45deg);background:var(--paper);border-left:1px solid var(--edge);border-bottom:1px solid var(--edge)}
 h1,h2,p,figure{margin:0}h1{font-size:clamp(22px,3.6vw,32px);font-weight:500;line-height:1.06;margin-bottom:10px}
+.bubble h1{margin-bottom:18px}
 .bubble p,#copy p{line-height:1.5}nav{display:grid;grid-template-columns:1fr 1fr 1.28fr;gap:6px}nav button{display:flex;align-items:center;justify-content:center;gap:7px;border:1px solid var(--edge);border-radius:9px;background:#fff7f7;min-height:44px;box-shadow:1px 2px 0 #a38c9950}nav button{padding:5px;font-size:14px}nav button:nth-child(2){background:#e7e5eb}nav button:nth-child(3){background:var(--green)}nav button[aria-expanded=true]{outline:2px dashed #76626d;outline-offset:-5px}nav svg,.social svg{width:17px;height:17px;stroke:currentColor;stroke-width:1.65;fill:none;stroke-linecap:round;stroke-linejoin:round;flex:none}
 .ticker{overflow:hidden;background:#e9e8e6;border-block:1px dashed var(--edge);padding:4px 0}.track{display:flex;width:max-content;animation:roll 25s linear infinite;font-size:13px;letter-spacing:.05em;white-space:nowrap}.track span{flex:none}@keyframes roll{to{transform:translateX(-50%)}}
 #info,.album{padding:clamp(18px,4vw,32px)}#info{border-bottom:1px dashed var(--edge);background:#f8f7f2;scroll-margin-top:10px}.info-head{position:relative;border:1px solid var(--edge);border-radius:8px;background:var(--grey);padding:9px 48px;text-align:center}h2{font-size:clamp(21px,3vw,28px);line-height:1.15;font-weight:500}.info-head button{position:absolute;right:0;top:0;bottom:0;border:0;background:transparent;width:44px;font-size:24px}#copy p{margin-top:15px}
@@ -142,7 +143,7 @@ html:has(#photo-viewer[open]) {overflow:hidden}
 .social-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 .social-grid>*{min-height:48px;display:grid;place-items:center;border:1px solid #918775;border-radius:9px;box-shadow:1px 2px 0 #91877555;color:var(--ink);background:#f9efdd}
 .social-grid svg{width:23px;height:23px}
-#whatsapp{background:#edf1d0}#instagram{background:#f6cfda}.social-grid button:disabled{cursor:default;color:#736c62}
+#tiktok{background:#edf1d0}#instagram{background:#f6cfda}.social-grid button:disabled{cursor:default;color:#736c62}
 footer{text-align:center;padding:6px}
 
 .hero{isolation:isolate;border-bottom:1px solid #bd9ea7}
