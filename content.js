@@ -2,7 +2,7 @@ const instagramUser = "madoicharms_";
 const instagramUrl = instagramUser ? "https://www.instagram.com/" + instagramUser + "/" : "";
 
 const tiktokUrl = "";
-const facebookUrl = "";
+const facebookUrl = "https://www.facebook.com/share/1F7ThFXcEX/";
 
 const sections = [
   { id: "compras", label: "Compras", paragraphs: [
